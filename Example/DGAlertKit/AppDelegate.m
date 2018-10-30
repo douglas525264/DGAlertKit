@@ -6,9 +6,9 @@
 //  Copyright (c) 2018 douglas525264. All rights reserved.
 //
 
-#import "DGAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation DGAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
