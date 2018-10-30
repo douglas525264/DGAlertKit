@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DGAlertKit_Example' do
+  pod 'DGAlertKit', :path => '../'
+
+  target 'DGAlertKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
