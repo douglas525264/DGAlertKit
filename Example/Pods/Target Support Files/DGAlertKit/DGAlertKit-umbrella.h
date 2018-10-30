@@ -12,9 +12,9 @@
 
 #import "ADManager.h"
 #import "ADWebViewController.h"
-#import "AppDelegate+ADExt.h"
 #import "GTMBase64.h"
 #import "GTMDefines.h"
+#import "UIResponder+ADExt.h"
 
 FOUNDATION_EXPORT double DGAlertKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char DGAlertKitVersionString[];

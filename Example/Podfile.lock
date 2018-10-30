@@ -16,7 +16,11 @@ PODS:
     - AFNetworking/NSURLSession
   - DGAlertKit (0.1.0):
     - AFNetworking (~> 3.1.0)
+    - JPush
     - Masonry
+  - JCore (1.1.7)
+  - JPush (3.0.8):
+    - JCore (~> 1.1.7)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
@@ -25,6 +29,8 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - JCore
+    - JPush
     - Masonry
 
 EXTERNAL SOURCES:
@@ -33,9 +39,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  DGAlertKit: 88f83cb7956cca1301553eb61102371d922848e0
+  DGAlertKit: ded01c1ea32ffccdfaea049b242aa66944783a90
+  JCore: f7459c81c135281a874a6beafdd321666adcc834
+  JPush: 9574d072cc37e93fa293ba69b43ce763c440943a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 0189e04b90027c4d4a25669ed35c16d2e91eda39
+PODFILE CHECKSUM: 74f0588b5a683a809c776cd8531091fb46eb7236
 
 COCOAPODS: 1.5.3
