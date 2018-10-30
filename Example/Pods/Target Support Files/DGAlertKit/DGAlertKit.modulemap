@@ -1,0 +1,6 @@
+framework module DGAlertKit {
+  umbrella header "DGAlertKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
